@@ -1,11 +1,11 @@
 from typing import List
 import unittest
 from dataclasses import dataclass
+
 class Solution:
 
     def func(self, numbers: List[int]) -> int:
         return numbers[0] * numbers[1] * numbers[1] + numbers[2] * numbers[1] + numbers[3]
-
 
 @dataclass
 class TestCase:
